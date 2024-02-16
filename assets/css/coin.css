@@ -1,0 +1,872 @@
+body {
+  background-color: #140e3a;
+  background-size: cover;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+:root {
+  --darkBlue: #140e3a;
+  --lightBlue: #070b42;
+}
+
+/* coin */
+.cicon{
+  color: #f59e0b;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Sitka Small;
+}
+
+
+
+.form {
+  margin-right: 220px;
+  margin-left: 200px;
+ background-color: hsla(120, 52%, 5%, 0.749);
+ font-style: normal;
+}
+.presale{
+  color: rgb(214, 37, 10);
+  background-color: rgba(124, 93, 53, 0.735);
+  font-size: 30px;
+  margin-left: 2px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+.before{
+  margin-left: 10px;
+}
+.stage{
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.current{
+  margin-left: 30px;
+  background-color: rgba(8, 10, 9, 0.486);
+  margin-right: 200px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1px solid #fd3407 ;
+  margin-top: 2px;
+}
+
+.public{
+   margin-left: 50px;
+   margin-top: 5px;
+}
+
+.next{
+  margin-right: 20px;
+  text-align: right;
+  margin-top: -45px;
+  margin-bottom: 20px;
+  background-color: rgba(11, 13, 13, 0.312);
+  margin-left: 200px;
+  border-radius: 2px;
+  border: 0.5px solid rgba(217, 210, 206, 0.396) ;
+  text-align: center;
+  
+}
+.Raise{
+  margin-top: -15px;
+  background-color: rgba(31, 26, 17, 0.652);
+  
+}
+.focoin{
+  margin-left: 45px;
+   
+}
+.targrt{
+  margin-left: 45px;
+}
+.buywith{
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 1px;
+}
+.et{
+  color: #f2f5f4;
+  box-sizing: border-box;
+  margin: 25px;
+  background-color: rgba(57, 94, 94, 0.625);
+  margin-right: 280px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  
+
+}
+.Bnb{
+  margin-left: 165px;
+  margin-top: -35px;
+  background-color: rgba(57, 94, 94, 0.625);
+  margin-right: 150px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 1px;
+
+}
+.preasle:hover {
+  background: #f59e0b;
+  transition: 1s;
+}
+.usdt{
+  margin-left: 270px;
+  margin-top: -30px;
+  background-color: rgba(57, 94, 94, 0.625);
+  margin-right: 30px;
+  font-size: 20px;
+  text-align: center;
+  
+}
+.send{
+  box-sizing: border-box;
+  border-color: chartreuse;
+ margin-top: 15px;
+ background-color: rgba(57, 94, 94, 0.625);
+ margin-left: 20px;
+border-color: brown;
+margin-right: 210px;
+
+}
+
+.send input{
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+  width: 140px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid orange ;
+  padding: 3px 15px;
+  color: rgb(14, 1, 1);
+}
+
+.get{
+  text-align: right;
+  margin-right: 30px;
+  margin-top: -52px;
+  margin-bottom: 15px;
+  background-color: rgba(34, 34, 114, 0.485);
+  margin-left: 200px;
+  text-align: center;
+
+}
+
+.get input{
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+  color: #f59e0b;
+  width: 140px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 2px solid orange ;
+  padding: 3px 20px;
+}
+.text{
+  background-color: #f59e0b;
+  border-radius: 200px;
+  margin-right: 20px;
+  margin-left: 15px;
+  text-align: center;
+  
+}
+.text:hover{
+  background-color:hsl(216, 86%, 28%);
+  
+}
+
+.text h1:hover{
+  color: rgb(232, 237, 65);
+}
+
+.text h1{
+  text-align: center;
+ font-size: 30px;
+ margin-top: -4px;
+ 
+}
+
+.reward{
+  margin-top: 10px;
+  margin-bottom: -15px;
+  margin-left: 100px;
+  font-size: 12px;
+}
+.dash{
+  background-color: rgba(95, 73, 25, 0.452);
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  
+}
+.dash h1{
+  font-size: 25px;
+  padding-bottom: 5px;
+  margin-top: -15px;
+  
+}
+.dash h1:hover{
+    color: orangered;
+    background-color:hsl(216, 86%, 28%);
+   
+}
+button:hover{
+    color: orangered;
+    background-color:hsl(216, 86%, 28%);
+}
+
+.Affiliate{
+  margin-top: 10px;
+  background-color: rgba(66, 93, 117, 0.393);
+  margin-left: 5px;
+
+}
+.loan{
+  text-align: right;
+  margin-top: -35px;
+margin-right: 10px;
+
+}
+h4{
+  color: rgb(242, 246, 9);
+  border-color: blueviolet;
+  
+}
+.buye{
+  text-align: center;
+}
+
+.grid{
+  text-align: center;
+ margin-left: 250px;
+ display: flex;
+ font-display:10px ;
+ margin-right: auto;
+ 
+}
+  
+.contentA {
+  text-align: center;
+  margin-left: -350PX;
+}
+
+
+.tcontent0 {
+  padding: 20px 30px;
+  background-color: #070b42;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid rgb(62, 33, 33);
+  width: 200px;
+  margin-left: 150px;
+  margin-top: 5px;
+  text-align: center;
+ 
+}
+.tcontent1 {
+  padding: 20px 30px;
+  background-color: #070b42;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid rgb(62, 33, 33);
+  width: 200px;
+  margin-left: 350px;
+  margin-top: -120px;
+  text-align: center;
+}
+
+.tcontent2 {
+  padding: 20px 30px;
+  background-color: #070b42;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid rgb(62, 33, 33);
+  width: 200px;
+  margin-left: 550px;
+  margin-top: -120px;
+}
+.tcontent3 {
+  padding: 20px 30px;
+  background-color: #070b42;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid rgb(62, 33, 33);
+  width: 200px;
+  margin-left: 750px;
+  margin-top: -120px;
+}
+
+
+
+.m{
+  background-color:  orange;
+  border-radius: 2px;
+  border-color: hsl(20, 93%, 51%);
+}
+
+
+
+
+
+
+
+.cbrief {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ourCoin {
+  background-color: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 17px;
+}
+.buy-btn{
+  padding: 5px 50px;
+  background-color: orangered;
+  background-color: linear-gradient(orange, orangered);;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+}
+.binance {
+  width: 40%;
+  height: 100%
+}
+
+.binance img {
+  width: 100%;
+}
+.coin-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* future content */
+.coin-future {
+  width: 100%;
+}
+.future-content h1 {
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+.future-content h1::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 3px;
+  width: 100px;
+  display: block;
+  border-radius: 20px;
+  margin: 10px 0;
+  background-color: #f59e0b;
+}
+#about{
+    padding: 40px 0 10px 0;
+}
+@media screen and (max-width: 700px) {
+  .cbrief {
+    flex-direction: column;
+  }
+  .binance {
+    margin: 20px 0;
+    width: 90%;
+  }
+  .coin-future {
+    width: 90%;
+    margin: 10px 0;
+  }
+  .ourCoin{
+    width: 90%;
+  }
+}
+/* utilils */
+.utilis {
+  background-color: var(--lightBlue);
+  padding: 30px;
+}
+.utilis .ubox-header {
+  display: flex;
+  align-items: center;
+}
+.utilis .ubox-img {
+  width: 40px;
+  height: 40px;
+  margin: 7px 0;
+}
+.utilis .ubox-img img {
+  width: 100%;
+}
+.ubox-content p {
+  color: #aab2cd;
+  font-size: 14px;
+}
+/* end of utilis */
+
+
+/* start opportunity */
+.color{
+    color: #f59e0b;
+}
+.join{
+    background-color: #573b0a;
+    width: 150px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.join:hover{
+    background-color: #402d0d;
+}
+.opp-text{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 1350px) {
+  .opp-text{
+    width: 50%;
+  }
+}
+/* end opportunity */
+
+
+
+/* tech */
+.obox-img{
+    width: 100%;
+    height: 200px;
+}
+.obox-img img{
+  width: 100%;
+    height: 100%;
+}
+
+
+/* charts */
+.donat-chart{
+  width: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .donat-chart{
+    width: 90%;
+  }
+}
+/* @media screen and (min-width: 1350px) {
+  .donat-chart{
+    width: 100%;
+  } 
+} */
+.token-name{
+    margin-left: 50px;
+    margin-bottom: 5px;
+}
+
+.main-head {
+  margin: 30px 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.vision {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.mission {
+  width: 40%;
+  color: #aab2cd;
+}
+.mhead{
+  font-size: 23px;
+}
+
+.focus {
+  width: 50%;
+}
+
+.focus img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .vision {
+    flex-wrap: wrap;
+  }
+
+  .focus {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .mission {
+    width: 100%;
+  }
+
+  .mission {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*
+-----------------
+Start of timeline
+-----------------
+ */
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+/* Container around content */
+.timeline-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -13px;
+  background-color: #0c0f31;
+  border: 2px solid white;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.tleft {
+  left: 0;
+}
+
+/* Place the container to the right */
+.tright {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.tleft::before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.tright::before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.tright::after {
+  left: -16px;
+}
+
+/* The actual content */
+.tcontent {
+  padding: 20px 30px;
+  background-color: #070b42;
+  position: relative;
+  border-radius: 6px;
+  color: white;
+  border: 2px solid white;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .timeline-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline-container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .tleft::after,
+  .tright::after {
+    left: 15px;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .tright {
+    left: 0%;
+  }
+}
+
+.lists li {
+  list-style-type: circle;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.sub-prog {
+  margin-left: 30px;
+}
+
+.prog-right {
+  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.topCoinNav {
+  position: sticky;
+  top: 0;
+  background: #0d0f2d;
+  z-index: 30;
+  padding: 0px 20px;
+}
+
+.menubar {
+  display: none;
+  position: absolute;
+  top: 7px;
+  right: 20px;
+}
+
+.navActive {
+  display: block;
+}
+.coinUl li a{
+  font-size: 12px;
+}
+.account{
+  background-color: var(--lightBlue);
+}
+
+@media screen and (max-width: 770px) {
+  .topCoinNav{
+    flex-direction: column;
+  }
+  .topCoinNav ul li:not(.menubar){
+    width: 100%;
+  }
+  .coinUl li{
+    display: none;
+  }
+
+  .coinUl li.menubar {
+    display: block;
+  }
+
+  .coinUl.responsive li {
+    display: block;
+  }
+}
+
+/* rood map container */
+.roodmap_container {
+  background-color: #0c0f31;
+  padding: 15px 0;
+}
+
+/* tokenomic */
+
+.tokenHead {
+  background: rgba(0, 0, 0);
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* footer */
+
+.cfooter {
+  background-color: var(--lightBlue);
+  width: 100%;
+  border-top: 1px solid gray;
+  margin-top: 100px;
+}
+.sub-footer {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.cfooter h1 {
+  font-size: 25px;
+  margin: 30px 0 10px 0;
+  font-weight: bold;
+}
+.cfooter p {
+  font-size: 15px;
+}
+.fLinks a {
+  display: block;
+}
+.cfooter .fIcons i {
+  margin: 0 10px;
+  border: 1px dotted white;
+  padding: 2px;
+}
+.clastFooter {
+  background-color: var(--darkBlue);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .sub-footer{
+        flex-direction: column;
+    }
+}
+
+/* opp */
+
+/* winners program */
+
+.main-content {
+  /* Overall container styling */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 0 auto; /* Center the content */
+  max-width: 600px; /* Set a maximum width for responsiveness */
+  max-height: 30%;
+}
+
+.main-content header {
+  /* Header styling */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-content h1, .main-content h2 {
+  /* Heading styling */
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.main-content section {
+  /* Section styling */
+  margin-bottom: 20px;
+}
+
+
+.main-content form {
+  /* Form styling */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-content label {
+  /* Label styling */
+  font-weight: bold;
+}
+
+.main-content input, .main-content button {
+  /* Input and button styling */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  
+}
+#wallet{
+    width: 300px;
+    text-align: center;
+}
+.main-content button {
+  /* Button styling */
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+.token{
+    /* display: none; */
+    text-align: center;
+    padding-top: 20px;
+}
+#join{
+    text-align: center;
+}
+.main-content span{
+    font-size: 18px;
+}
+.main-content p{
+    font-size: 18px;
+}
+#winner{
+    font-weight: bold;
+}
