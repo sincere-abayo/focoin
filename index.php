@@ -65,8 +65,8 @@
   display: none;
 }
 #play-button{
-    /* cursor: not-allowed;
-   pointer-events: none; */
+    cursor: not-allowed;
+   pointer-events: none;
 }
 
 
