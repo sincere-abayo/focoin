@@ -527,9 +527,9 @@
                                             <div class="token-wallet">
                                                 <span>Submit your wallet address used to buy token and upload your token </span>
                                                 <div style="text-align: center;"> 
-                                                    <input type="text" id="wallet-address" name="wallet-address"  placeholder="wallet address">
+                                                    <input type="text" id="wallet-address" name="wallet-address" readonly>
                                                     <label for="token">Your Token:</label>
-                                                    <input type="text" id="token" name="token-value">
+                                                    <input type="text" id="token" name="token-value" readonly>
                                                 </div>
                                             </div>
                                             <div class="winner-address">

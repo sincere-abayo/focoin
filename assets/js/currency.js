@@ -3,7 +3,7 @@ var focoin;
 var usdtToBePaid;
 var currencyButtons = document.getElementsByClassName('currency-button');
 var showConnect=document.getElementsByClassName('show-connect')
-const tokenValue=document.getElementById('token-value');
+const tokenValue=document.getElementById('token');
 const walletAddress=document.getElementById('wallet-address');
 
 document.getElementById('disconnect').style.display="none";

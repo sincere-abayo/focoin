@@ -16,8 +16,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $row = $query->fetch_assoc(); 
             $totalFocoin = $row['totalFocoin'];   
             
-             $totalFocoin=$totalFocoin==null?0:$totalFocoin;
-             echo $totalFocoin;
+            //  $totalFocoin=$totalFocoin==NULL?0:$totalFocoin;
+             if ($totalFocoin==NULL) {
+               echo 0;
+               return;
+             }
+             else
+             {
+                echo $totalFocoin;
+                return;
+             }
         }
         else{
             
